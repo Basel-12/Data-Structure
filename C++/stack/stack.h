@@ -10,13 +10,8 @@
  *
  * @next: point to next element in stack
  */
-template<typename type>
-class Node
-{
-	public:
-		type item;
-		Node* next;
-};
+// template<typename type>
+
 
 
 /**
@@ -31,9 +26,14 @@ class Node
 template<typename type>
 class Stack
 {
-	Node<type>* Top;
+class Node
+{
+	public:
+		type item;
+		Node* next;
+};
+Node* Top;
 	int siz;
-
 	public:
 	Stack()
 	{
@@ -42,7 +42,7 @@ class Stack
 	}
 	void push(type element)
 	{
-		Node<type>* temp = new Node<type>;
+		Node* temp = new Node;
 
 		if(temp)
 		{
@@ -55,7 +55,7 @@ class Stack
 
 	type pop()
 	{
-		Node<type>* temp = Top;
+		Node* temp = Top;
 		type e = Top->item;
 
 		Top = Top->next;
@@ -85,7 +85,7 @@ class Stack
 	{
 		while (Top != nullptr)
 		{
-			Node<type>* temp = Top;
+			Node* temp = Top;
 			
 			Top = Top->next;
 			delete temp;

@@ -1,19 +1,19 @@
 #ifndef QUEUE_H
 #define QUEUE_H
 
-template<typename type>
-class QueueNode
+
+template <typename type>
+class Queue {
+    class QueueNode
 {
     public:
         type item;
         QueueNode* next;
 };
 
-template <typename type>
-class Queue {
         int siz;
-        QueueNode<type>* Front;
-        QueueNode<type>* rear;
+        QueueNode* Front;
+        QueueNode* rear;
     public:
         Queue()
         {
@@ -24,7 +24,7 @@ class Queue {
 
        void push(type e)
         {
-            QueueNode<type>* temp = new QueueNode<type>;
+            QueueNode* temp = new QueueNode;
             
             if (temp)
             {
@@ -41,7 +41,7 @@ class Queue {
 
         type pop()
         {       
-                QueueNode<type>* temp = this->Front;
+                QueueNode* temp = this->Front;
                 type e = this->Front->item;
 
                 this->Front = this->Front->next;

@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1701155839 source:c:\users\user\documents\ds\c\double linked list\main.c
+	<stdio.h>
+	<stdlib.h>
+	"global.h"
+	"doubleLinked.h"
+
+1701156313 source:c:\users\user\documents\ds\c\double linked list\doublelinked.c
+	"global.h"
+	"doubleLinked.h"
+	<stdio.h>
+	<stdlib.h>
+
+1700313198 c:\users\user\documents\ds\c\double linked list\global.h
+
+1701097303 c:\users\user\documents\ds\c\double linked list\doublelinked.h
+	"global.h"
+

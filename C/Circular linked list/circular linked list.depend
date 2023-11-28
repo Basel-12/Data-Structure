@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1701173726 source:c:\users\user\documents\ds\c\circular linked list\circular linked list.c
+	"global.h"
+	"circular linked list.h"
+	<stdlib.h>
+
+1701157249 c:\users\user\documents\ds\c\circular linked list\global.h
+
+1701163159 c:\users\user\documents\ds\c\circular linked list\circular linked list.h
+	"global.h"
+
+1701173629 source:c:\users\user\documents\ds\c\circular linked list\main.c
+	<stdio.h>
+	<stdlib.h>
+	"global.h"
+	"circular linked list.h"
+

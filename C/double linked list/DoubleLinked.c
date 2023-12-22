@@ -124,18 +124,12 @@ void 	ReplaceList	(int pos, type_entry e, DoubleLinkedList *pl)
     }
 }
 
-
 void 	TraverseList(DoubleLinkedList *pl, void (*Visit)(type_entry e))
 {
-
     Node *q = pl->head;
-
     while (q)
     {
         Visit(q->item);
         q = q->next;
     }
-
-
-
 }

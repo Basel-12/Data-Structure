@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1703227727 source:c:\users\user\documents\ds\c\priorityqueue\priorityqueue.c
+	"global.h"
+	<stdlib.h>
+	"priorityQueue.h"
+
+1703154738 c:\users\user\documents\ds\c\priorityqueue\global.h
+
+1703225061 c:\users\user\documents\ds\c\priorityqueue\priorityqueue.h
+	"global.h"
+

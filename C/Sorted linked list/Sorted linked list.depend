@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1702133424 source:c:\users\user\documents\ds\c\sorted linked list\sorted linked list.c
+	"global.h"
+	"Sorted linked list.h"
+	<stdio.h>
+	<stdlib.h>
+
+1702103129 c:\users\user\documents\ds\c\sorted linked list\global.h
+
+1702111395 c:\users\user\documents\ds\c\sorted linked list\sorted linked list.h
+	"global.h"
+
+1702133007 source:c:\users\user\documents\ds\c\sorted linked list\main.c
+	<stdio.h>
+	<stdlib.h>
+	"global.h"
+	"Sorted linked list.h"
+

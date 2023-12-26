@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1703598615 source:c:\users\user\documents\ds\c\bst1\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	"global.h"
+	"tree.h"
+
+1703582564 c:\users\user\documents\ds\c\bst1\global.h
+
+1703598582 c:\users\user\documents\ds\c\bst1\tree.h
+	"global.h"
+
+1703598533 source:c:\users\user\documents\ds\c\bst1\tree.cpp
+	"global.h"
+	"tree.h"
+	<stdlib.h>
+	<stdio.h>
+	<queue>
+
